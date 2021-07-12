@@ -1,0 +1,15 @@
+{
+    "name": "pangaea/php-cli",
+    "description": "Package for creating and executing custom console commands",
+    "minimum-stability": "dev",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pangaea\\ConsoleCommands\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*"
+    }
+}
